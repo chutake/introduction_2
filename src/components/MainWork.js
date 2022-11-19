@@ -12,7 +12,8 @@ const MainWork = () => {
       <br />
       <br />
 
-      <h3>Javaで製作したもの</h3>
+      <h2 className="mokuzi-title">目次</h2>
+      <h3>Java</h3>
       <ol>
         <li type="1" className="mokuzi">
           <a href="#section1">GUIプログラミング</a>
@@ -22,7 +23,7 @@ const MainWork = () => {
         </li>
       </ol>
       <br />
-      <h3>Pythonで製作したもの</h3>
+      <h3>Python</h3>
       <ol>
         <li type="1" className="mokuzi">
           <a href="#section4">エージェントシミュレーション</a>
@@ -33,16 +34,18 @@ const MainWork = () => {
       </ol>
 
       <li className="production">
-        <h2>
-          1, GUIプログラミング<br></br>
+        <h2 id="#section1">
+          GUIプログラミング
+          <br />
         </h2>
-        <br></br>
+        <br />
         <img className="workimg1" src={img_1} alt="GUIProgramming" />
-        <br></br>
+        <br />
         <p>
           登録用のサイトを想定したウィンドウを作成しました。<br></br>
-          <br></br>
-          ＜詳細＞<br></br>
+          <br />
+          ＜詳細＞
+          <br />
           名前、パスワード、メールアドレス、性別、生年月日が入力必須事項となっています。
           そのほかに趣味、自由記入欄を設けました。
           入力必須事項が未記入のとき、右側のテキストエリアで指摘してくれます。
@@ -51,8 +54,8 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2>
-          2, エージェントシミュレーション<br></br>
+        <h2 id="#section4">
+          エージェントシミュレーション<br></br>
         </h2>
         <br></br>
         <img className="workimg2" src={img_2} alt="simulation" />
@@ -82,8 +85,8 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2>
-          3, 手書き数字認識<br></br>（Scikit-learn）
+        <h2 id="#section5">
+          手書き数字認識<br></br>（Scikit-learn）
         </h2>
         <br></br>
         <img className="workimg3" src={img_3} alt="number_img" />

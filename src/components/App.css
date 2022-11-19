@@ -98,6 +98,12 @@ body {
   list-style-type: none;
   padding: 100px 0 50px 0;
 }
+.mokuzi-title {
+  font-size: 50px;
+  line-height: 80px;
+  color: #aba59c;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+}
 .main-work ol {
   display: inline-block;
 }
@@ -106,7 +112,7 @@ body {
 }
 .main-work a {
   text-decoration: none;
-  color: aquamarine;
+  color: #202020;
 }
 .main-work h2 {
   display: inline-block;
