@@ -12,16 +12,26 @@ const MainWork = () => {
       <br />
       <br />
 
-      <li>
-        <h3>Javaで製作したもの</h3>
-        <li className="mokuzi">
+      <h3>Javaで製作したもの</h3>
+      <ol>
+        <li type="1">
           <a href="#section1">GUIプログラミング</a>
-          <br />
-          <a href="#section2">s</a>
-          <br />
         </li>
-        <h3>Pythonで製作したもの</h3>
-      </li>
+        <li type="1">
+          <a href="#section2">s</a>
+        </li>
+      </ol>
+      <br />
+      <h3>Pythonで製作したもの</h3>
+      <ol>
+        <li type="1">
+          <a href="#section4">エージェントシミュレーション</a>
+        </li>
+        <li type="1">
+          <a href="#section5">手書き数字認識</a>
+        </li>
+      </ol>
+
       <li className="production">
         <h2>
           1, GUIプログラミング<br></br>
