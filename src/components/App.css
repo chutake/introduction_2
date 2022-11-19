@@ -101,9 +101,9 @@ body {
 .main-work ol {
   width: 25em;
 }
-.main-work ol li {
-  display: inline;
-  margin: 0 auto;
+.mokuzi {
+  display: inline-block;
+  text-align: left;
 }
 .main-work a {
   text-decoration: none;

@@ -14,20 +14,20 @@ const MainWork = () => {
 
       <h3>Javaで製作したもの</h3>
       <ol>
-        <li type="1">
+        <li type="1" className="mokuzi">
           <a href="#section1">GUIプログラミング</a>
         </li>
-        <li type="1">
+        <li type="1" className="mokuzi">
           <a href="#section2">s</a>
         </li>
       </ol>
       <br />
       <h3>Pythonで製作したもの</h3>
       <ol>
-        <li type="1">
+        <li type="1" className="mokuzi">
           <a href="#section4">エージェントシミュレーション</a>
         </li>
-        <li type="1">
+        <li type="1" className="mokuzi">
           <a href="#section5">手書き数字認識</a>
         </li>
       </ol>
