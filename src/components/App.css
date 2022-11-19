@@ -99,7 +99,6 @@ body {
   padding: 100px 0 50px 0;
 }
 .mokuzi-title {
-  padding-top: 200px;
   font-size: 50px;
   line-height: 80px;
   color: #aba59c;
@@ -108,7 +107,9 @@ body {
 .box {
   background-color: #ffe9d8;
   border: #ffa868 5px dotted;
-  padding: 10px;
+  padding: 0;
+  margin: 0;
+  max-width: max-content;
 }
 .main-work ol {
   display: inline-block;
