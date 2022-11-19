@@ -99,8 +99,14 @@ body {
   padding: 100px 0 50px 0;
 }
 .main-work ol {
+  width: 20em;
+  background-color: aliceblue;
   text-align: center;
-  margin-left: auto;
+}
+.main-work ol li {
+  display: inline;
+  margin: 0 auto;
+  background-color: antiquewhite;
 }
 .main-work h2 {
   display: inline-block;
