@@ -99,10 +99,11 @@ body {
   padding: 100px 0 50px 0;
 }
 .mokuzi-title {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 80px;
   color: #aba59c;
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  margin: 0 auto;
 }
 .box {
   background-color: #ffe9d8;
@@ -114,6 +115,9 @@ body {
 .main-work ol {
   display: inline-block;
 }
+.main-work h3 {
+  margin: 0 50px;
+}
 .mokuzi {
   text-align: left;
 }
@@ -121,7 +125,7 @@ body {
   text-decoration: none;
   color: #202020;
 }
-.main-work h2 {
+.product-title {
   display: inline-block;
   margin: -89px 0 17px 0;
   font-size: 32px;
@@ -149,6 +153,9 @@ body {
 }
 .workimg5 {
   width: 30vw;
+}
+.workimg6 {
+  width: 15vw;
 }
 
 /*Contact*/
@@ -266,6 +273,12 @@ body {
     text-align: center;
     margin: 0;
   }
+  .mokuzi-title {
+    font-size: 50px;
+    line-height: 80px;
+    color: #aba59c;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  }
   .main-work h1 {
     padding-top: 100px;
     margin: 11px 0 17px 0;
@@ -274,7 +287,7 @@ body {
     color: #aba59c;
     text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
   }
-  .main-work li {
+  .production {
     list-style-type: none;
     padding: 0 0 50px 0;
   }

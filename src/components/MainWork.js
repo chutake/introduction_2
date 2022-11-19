@@ -5,7 +5,10 @@ import img_2 from "./img/simulation.png";
 import img_3 from "./img/手書き問題.png";
 import img_4 from "./img/手書き結論.png";
 import img_5 from "./img/Maze.png";
+import img_6 from "./img/pilot.jpg";
 import Mazezip from "./zipbox/Maze.zip";
+import Shootingzip from "./zipbox/shooting.zip";
+import Shootingvideo from "./movie/shooting.mp4";
 
 const MainWork = () => {
   return (
@@ -23,6 +26,9 @@ const MainWork = () => {
           <li type="1" className="mokuzi">
             <a href="#section2">迷路を最短経路で解く</a>
           </li>
+          <li type="1" className="mokuzi">
+            <a href="#section3">シューティングゲーム</a>
+          </li>
         </ol>
         <br />
         <h3>Python</h3>
@@ -37,7 +43,7 @@ const MainWork = () => {
       </div>
 
       <li className="production">
-        <h2 id="section1">
+        <h2 id="section1" className="product-title">
           GUIプログラミング
           <br />
         </h2>
@@ -57,7 +63,7 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2 id="section2">
+        <h2 id="section2" className="product-title">
           迷路を最短経路で解く
           <br />
         </h2>
@@ -86,8 +92,40 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2 id="section4">
-          エージェントシミュレーション<br></br>
+        <h2 id="section3" className="product-title">
+          シューティングゲーム
+        </h2>
+        <br />
+
+        <p>
+          Javaでシューティングゲームを作りました。
+          ゲームセンターでよく見るインベーダーゲームみたいなものです。
+          ベテランのパイロットが紹介してくれるみたいです！
+          <br />
+          <br />
+          <img className="workimg6" src={img_6} alt="pilot" />
+          <br />
+          やあ、こんにちは。今日から君はパイロットの新兵として入団した！
+          この戦いは君の協力が必要だ！これから戦い方（遊び方）を教えるッ！
+          <br />
+          プレイヤーは自由に移動できるッ！
+          射撃ボタンで攻撃し敵を倒すことができるぞッ！しかし敵も攻撃してくるから、避けながら戦うんだ！
+          そして敵を倒すとポイントがたまるッ！制限時間は君が戦闘不能になるまでだ！
+          だが気を付けろ！時間が経つにつれて敵がどんどん強くなるようだッ！
+          高いスコアでまわりと差をつけろ！！
+          <br />
+          <video width="100%" src={Shootingvideo} controls></video>
+          <br />
+          <a href={Shootingzip} download="shooting.zip">
+            ゲームのダウンロード（.zip）
+          </a>
+          <br />
+        </p>
+      </li>
+      <li className="production">
+        <h2 id="section4" className="product-title">
+          エージェントシミュレーション
+          <br />
         </h2>
         <br></br>
         <img className="workimg2" src={img_2} alt="simulation" />
@@ -117,7 +155,7 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2 id="section5">
+        <h2 id="section5" className="product-title">
           手書き数字認識<br></br>（Scikit-learn）
         </h2>
         <br></br>
