@@ -14,7 +14,7 @@ const MainWork = () => {
 
       <li>
         <h3>Javaで製作したもの</h3>
-        <li>
+        <li className="mokuzi">
           <a href="#section1">GUIプログラミング</a>
           <br />
           <a href="#section2">s</a>
