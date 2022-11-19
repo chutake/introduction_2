@@ -100,7 +100,7 @@ body {
 }
 .main-work ol {
   display: block;
-  margin-left: auto;
+  text-align: center;
 }
 .main-work h2 {
   display: inline-block;
