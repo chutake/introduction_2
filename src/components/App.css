@@ -108,7 +108,7 @@ body {
   background-color: #ffe9d8;
   border: #ffa868 5px dotted;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
   max-width: max-content;
 }
 .main-work ol {
