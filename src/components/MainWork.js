@@ -22,7 +22,7 @@ const MainWork = () => {
         </li>
         <h3>Pythonで製作したもの</h3>
       </li>
-      <li>
+      <li className="production">
         <h2>
           1, GUIプログラミング<br></br>
         </h2>
@@ -40,7 +40,7 @@ const MainWork = () => {
           <br></br>
         </p>
       </li>
-      <li>
+      <li className="production">
         <h2>
           2, エージェントシミュレーション<br></br>
         </h2>
@@ -71,7 +71,7 @@ const MainWork = () => {
           客の行動がどのように変化するかをモデリングすることです。
         </p>
       </li>
-      <li>
+      <li className="production">
         <h2>
           3, 手書き数字認識<br></br>（Scikit-learn）
         </h2>
