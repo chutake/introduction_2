@@ -11,27 +11,28 @@ const MainWork = () => {
       <h1>Work</h1>
       <br />
       <br />
-
-      <h2 className="mokuzi-title">目次</h2>
-      <h3>Java</h3>
-      <ol>
-        <li type="1" className="mokuzi">
-          <a href="#section1">GUIプログラミング</a>
-        </li>
-        <li type="1" className="mokuzi">
-          <a href="#section2">s</a>
-        </li>
-      </ol>
-      <br />
-      <h3>Python</h3>
-      <ol>
-        <li type="1" className="mokuzi">
-          <a href="#section4">エージェントシミュレーション</a>
-        </li>
-        <li type="1" className="mokuzi">
-          <a href="#section5">手書き数字認識</a>
-        </li>
-      </ol>
+      <div className="box">
+        <h2 className="mokuzi-title">目次</h2>
+        <h3>Java</h3>
+        <ol>
+          <li type="1" className="mokuzi">
+            <a href="#section1">GUIプログラミング</a>
+          </li>
+          <li type="1" className="mokuzi">
+            <a href="#section2">s</a>
+          </li>
+        </ol>
+        <br />
+        <h3>Python</h3>
+        <ol>
+          <li type="1" className="mokuzi">
+            <a href="#section4">エージェントシミュレーション</a>
+          </li>
+          <li type="1" className="mokuzi">
+            <a href="#section5">手書き数字認識</a>
+          </li>
+        </ol>
+      </div>
 
       <li className="production">
         <h2 id="#section1">
