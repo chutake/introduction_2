@@ -108,7 +108,7 @@ body {
 .box {
   background-color: #ffe9d8;
   border: #ffa868 5px dotted;
-  padding: 0;
+  padding: 0 20%;
   margin: 0 auto;
   max-width: max-content;
 }
