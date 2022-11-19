@@ -99,7 +99,7 @@ body {
   padding: 100px 0 50px 0;
 }
 .main-work ol {
-  width: 25em;
+  margin: auto;
 }
 .mokuzi {
   display: inline-block;
@@ -107,6 +107,7 @@ body {
 }
 .main-work a {
   text-decoration: none;
+  color: aquamarine;
 }
 .main-work h2 {
   display: inline-block;
