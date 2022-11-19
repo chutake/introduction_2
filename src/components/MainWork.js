@@ -5,6 +5,7 @@ import img_2 from "./img/simulation.png";
 import img_3 from "./img/手書き問題.png";
 import img_4 from "./img/手書き結論.png";
 import img_5 from "./img/Maze.png";
+import Mazezip from "./zipbox/Maze.zip";
 
 const MainWork = () => {
   return (
@@ -61,6 +62,8 @@ const MainWork = () => {
           <br />
         </h2>
         <br />
+        <img className="workimg5" src={img_5} alt="Maze" />
+        <br />
         <p>
           迷路を探索するアルゴリズムには、「深さ優先探索」と「幅優先探索」があります。
           <br />
@@ -75,12 +78,12 @@ const MainWork = () => {
           今回は幅優先探索で迷路を解きました。
           1回目は青、2回目は赤の線です。2回目はランダムに壁に穴を空けて通れるようにしてみました。
           <br />
-          <a href="zipbox/Maze.zip" download="Maze.zip">
-            プログラム（.exe）のダウンロード
+          <br />
+          <a href={Mazezip} download="Maze.zip">
+            ダウンロードリンク（.zip）
           </a>
           <br />
         </p>
-        <></>
       </li>
       <li className="production">
         <h2 id="section4">
