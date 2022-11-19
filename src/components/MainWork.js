@@ -4,6 +4,7 @@ import img_1 from "./img/success.png";
 import img_2 from "./img/simulation.png";
 import img_3 from "./img/手書き問題.png";
 import img_4 from "./img/手書き結論.png";
+import img_5 from "./img/Maze.png";
 
 const MainWork = () => {
   return (
@@ -19,7 +20,7 @@ const MainWork = () => {
             <a href="#section1">GUIプログラミング</a>
           </li>
           <li type="1" className="mokuzi">
-            <a href="#section2">s</a>
+            <a href="#section2">迷路を最短経路で解く</a>
           </li>
         </ol>
         <br />
@@ -35,7 +36,7 @@ const MainWork = () => {
       </div>
 
       <li className="production">
-        <h2 id="#section1">
+        <h2 id="section1">
           GUIプログラミング
           <br />
         </h2>
@@ -55,7 +56,34 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2 id="#section4">
+        <h2 id="section2">
+          迷路を最短経路で解く
+          <br />
+        </h2>
+        <br />
+        <p>
+          迷路を探索するアルゴリズムには、「深さ優先探索」と「幅優先探索」があります。
+          <br />
+          「深さ優先探索」とは、1つの道を突き進み、行き止まりになったら引き返す方法のことです。
+          人が巨大な迷路を探索するときに壁伝いに迷路を解く方法と似ています。
+          このアルゴリズムを実装するためには、「スタック」というデータ構造を使います。
+          <br />
+          「幅優先探索」とは、道が分かれていた場合、全ての道を平行して探索する方法のことです。
+          例えばスーパーで並んでいるとき、先に並んだ人から順に処理してもらえますよね。
+          このアルゴリズムを実装するためには、「キュー」というデータ構造を使います。
+          <br />
+          今回は幅優先探索で迷路を解きました。
+          1回目は青、2回目は赤の線です。2回目はランダムに壁に穴を空けて通れるようにしてみました。
+          <br />
+          <a href="zipbox/Maze.zip" download="Maze.zip">
+            プログラム（.exe）のダウンロード
+          </a>
+          <br />
+        </p>
+        <></>
+      </li>
+      <li className="production">
+        <h2 id="section4">
           エージェントシミュレーション<br></br>
         </h2>
         <br></br>
@@ -86,7 +114,7 @@ const MainWork = () => {
         </p>
       </li>
       <li className="production">
-        <h2 id="#section5">
+        <h2 id="section5">
           手書き数字認識<br></br>（Scikit-learn）
         </h2>
         <br></br>
