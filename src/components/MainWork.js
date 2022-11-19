@@ -9,9 +9,22 @@ const MainWork = () => {
   return (
     <div className="main-work">
       <h1>Work</h1>
+      <br />
+      <br />
+
+      <ol>
+        <li>
+          <h3>Javaで製作したもの</h3>
+          <li>
+            <a href="#section1">GUIプログラミング</a>
+            <a href="#section2">s</a>
+          </li>
+          <h3>Pythonで製作したもの</h3>
+        </li>
+      </ol>
       <li>
         <h2>
-          1, GUIプログラミング<br></br>（Java）
+          1, GUIプログラミング<br></br>
         </h2>
         <br></br>
         <img className="workimg1" src={img_1} alt="GUIProgramming" />
@@ -29,7 +42,7 @@ const MainWork = () => {
       </li>
       <li>
         <h2>
-          2, エージェントシミュレーション<br></br>（Python）
+          2, エージェントシミュレーション<br></br>
         </h2>
         <br></br>
         <img className="workimg2" src={img_2} alt="simulation" />
@@ -60,7 +73,7 @@ const MainWork = () => {
       </li>
       <li>
         <h2>
-          3, 手書き数字認識<br></br>（PythonのScikit-learnライブラリ）
+          3, 手書き数字認識<br></br>（Scikit-learn）
         </h2>
         <br></br>
         <img className="workimg3" src={img_3} alt="number_img" />

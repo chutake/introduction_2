@@ -164,6 +164,11 @@ body {
 
 /*スマホ用*/
 @media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color: #ece5da;
+  }
   /*Header*/
   .header {
     background-color: rgba(34, 49, 52, 1);
