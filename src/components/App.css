@@ -157,6 +157,12 @@ body {
 .workimg6 {
   width: 15vw;
 }
+.workimg7 {
+  width: 25vw;
+}
+.workimg8 {
+  width: 30vw;
+}
 
 /*Contact*/
 .Contact {
@@ -319,7 +325,12 @@ body {
   .workimg5 {
     width: 60%;
   }
-
+  .workimg6 {
+    width: 60%;
+  }
+  .workimg7 {
+    width: 60%;
+  }
   /*contactmain*/
   .main-contact h1 {
     padding-top: 100px;
