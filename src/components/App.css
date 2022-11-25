@@ -163,7 +163,15 @@ body {
 .workimg8 {
   width: 30vw;
 }
-
+.workimg9 {
+  width: 25vw;
+}
+.workimg10 {
+  width: 50vw;
+}
+.workimg11 {
+  width: 50vw;
+}
 /*Contact*/
 .Contact {
   text-align: center;

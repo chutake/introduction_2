@@ -12,6 +12,9 @@ import Shootingvideo from "./movie/shooting.mp4";
 import Reversizip from "./zipbox/Reversi.zip";
 import img_7 from "./img/Reversi.png";
 import img_8 from "./img/Reversi_AI.png";
+import img_9 from "./img/uwasa1.png";
+import img_10 from "./img/uwasa-graph1.png";
+import img_11 from "./img/uwasa-graph2.png";
 
 const MainWork = () => {
   return (
@@ -40,7 +43,10 @@ const MainWork = () => {
         <h3>Python</h3>
         <ol>
           <li type="1" className="mokuzi">
-            <a href="#section4">エージェントシミュレーション</a>
+            <a href="#section4">エージェントシミュレーション（コンビニ）</a>
+          </li>
+          <li type="1" className="mokuzi">
+            <a href="#section7">エージェントシミュレーション（噂の広まり方）</a>
           </li>
           <li type="1" className="mokuzi">
             <a href="#section5">手書き数字認識</a>
@@ -218,6 +224,8 @@ const MainWork = () => {
         <h2 id="section4" className="product-title">
           エージェントシミュレーション
           <br />
+          （コンビニ）
+          <br />
         </h2>
         <br></br>
         <img className="workimg2" src={img_2} alt="simulation" />
@@ -247,6 +255,101 @@ const MainWork = () => {
           <br></br>
           　追加機能の案は、そのような道中に誘惑となる商品や”半額”の文字があった際、
           客の行動がどのように変化するかをモデリングすることです。
+        </p>
+      </li>
+      <li className="production">
+        <h2 id="section7" className="product-title">
+          エージェントシミュレーション
+          <br />
+          （噂の広まり方）
+        </h2>
+        <br />
+        <img className="workimg9" src={img_9} alt="uwasa" />
+        <p>
+          　こちらもエージェントシミュレーションの1つです。
+          今回は人をエージェントとし、噂の広まり方をシミュレーションしてみます。
+          <br />
+          <br />
+          <h4>＜方法＞</h4>
+          　まずは30×30マスのフィールドを用意します。噂の発信源となる人物は
+          <strong>赤色</strong>で、 噂が広まっていない人物は
+          <strong>青色</strong>で表しました。 ここでは
+          <strong>噂の発信源となる人物をA、噂を知らない人をB</strong>
+          と名付けます。
+          基本的にはBの近くをAが通ると、噂が伝達され、BがAへと変化します。
+          全員がAになるまでのステップ数を観察します!
+          <br />
+          <br />
+          <br />
+          　エージェントシミュレーションはモデルを現実に近づけることが重要です。
+          皆さんも、ある日聞いた噂をずっと覚えていることはそんなにないでしょう。
+          よって今回は200ステップ進むと噂が薄れていくとみなし、AからBに変化するようにしました。
+          <br />
+          　さらに現実に近づけるために2つの変数を用意しました。
+          <br />
+          ＜変数1＞
+          <br />
+          　Aが噂を広めることができる範囲（マス）
+          <br />
+          ＜変数2＞
+          <br />
+          　BがAから噂を聞いたとき、それを信じるまでのすれ違い回数
+          <br />
+          <br />
+          現実世界において
+          <br />
+          　・変数1は、その人の影響力や噂を広げる力
+          <br />
+          　・変数2は、噂をすぐに鵜呑みにしないこと
+          <br />
+          を表しています。これらを調整して実験をします。
+          <br />
+          <h4>＜結果＞</h4>
+          「たまたま密集していて噂が広まるのが早かった」ということを防ぐために、
+          それぞれ5回ずつ試し、平均を取ります。
+          パラメータを1つだけ変更する比較実験で考察をします。
+          <br />
+          <img src={img_10} className="workimg10" alt="graph1" />
+          <img src={img_11} className="workimg11" alt="graph2" />
+          <br />
+          図1-1と図1-2では、「フィールドの人数」だけを変更した。
+          図1-1は11人（A=1,B=10）、図1-2は21人（A=1,B=20）
+          の状態から観察を始めました。
+          <strong>
+            <br />
+            図1-1は平均1503ステップ
+            <br />
+            図1-2は平均639ステップ
+          </strong>
+          <br />
+          <br />
+          図1-2と図2-1では「噂を広める範囲」だけを変更した。
+          図1-2では2マス、図2-1では4マスとした。
+          <br />
+          <strong>
+            図1-2は平均1503ステップ
+            <br />
+            図2-1は平均476ステップ
+            <br />
+          </strong>
+          <br />
+          図1-2と図2-2では「噂を信じるまでの回数」だけを変更した。
+          図1-2では5回、図2-2では3回とした。
+          <br />
+          <strong>
+            図1-2は平均1503ステップ
+            <br />
+            図2-2は平均936ステップ
+            <br />
+          </strong>
+          <h4>＜考察＞</h4>
+          上記の結果から3つの考察をする。
+          <br />
+          <ol>
+            <li type="1">aaaaaa</li>
+            <li type="1">bbbbbb</li>
+            <li type="1">cccccc</li>
+          </ol>
         </p>
       </li>
       <li className="production">
