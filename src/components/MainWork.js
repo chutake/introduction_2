@@ -343,13 +343,11 @@ const MainWork = () => {
             <br />
           </strong>
           <h4>＜考察＞</h4>
-          上記の結果から3つの考察をする。
-          <br />
-          <ol>
-            <li type="1">aaaaaa</li>
-            <li type="1">bbbbbb</li>
-            <li type="1">cccccc</li>
-          </ol>
+          一番早く噂が広まったのは「噂を広める範囲を変えた」ときでした。
+          <br />「<strong>フィールドの人数を増やす</strong>
+          よりも、
+          <strong> 有名人や影響力のある人が噂の発信源となれば</strong>、
+          噂が広まりやすくなる。」 と考察できます。
         </p>
       </li>
       <li className="production">
