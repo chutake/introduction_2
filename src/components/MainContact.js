@@ -34,6 +34,7 @@ const MainContact = () => {
             送信する
           </button>
         </form>
+        <h6>----法政大学情報科学部コンピュータ科学科　中郡健竜----</h6>
       </div>
     </div>
   );
