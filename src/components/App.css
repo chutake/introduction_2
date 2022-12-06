@@ -325,7 +325,7 @@ body {
     width: 60%;
   }
   .workimg3 {
-    width: 60%;
+    width: 70%;
   }
   .workimg4 {
     width: 60%;
@@ -334,11 +334,24 @@ body {
     width: 60%;
   }
   .workimg6 {
-    width: 60%;
+    width: 40%;
   }
   .workimg7 {
     width: 60%;
   }
+  .workimg8 {
+    width: 50%;
+  }
+  .workimg9 {
+    width: 50%;
+  }
+  .workimg10 {
+    width: 90%;
+  }
+  .workimg11 {
+    width: 90%;
+  }
+
   /*contactmain*/
   .main-contact h1 {
     padding-top: 100px;
