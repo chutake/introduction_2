@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
-import Maint from "./MainUpbringing";
+import Mainu from "./MainUpbringing";
 
 const Upbringing = () => {
   return (
     <div className="Upbringing">
       <Header />
-      <Maint />
+      <Mainu />
     </div>
   );
 };

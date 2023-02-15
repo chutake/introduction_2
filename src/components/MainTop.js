@@ -1,4 +1,5 @@
 import React from "react";
+import UpbringingM from "./Upbringing";
 
 class MainTop extends React.Component {
   render() {
@@ -10,6 +11,9 @@ class MainTop extends React.Component {
           <span>만나서 반갑습니다</span>
           <span>很高兴见到你</span>
         </h3>
+        <div className="Upbringing-main">
+          <UpbringingM />
+        </div>
       </div>
     );
   }

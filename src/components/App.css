@@ -71,7 +71,7 @@ body {
   letter-spacing: -2px;
   padding-top: 100px;
 }
-.main_top h3 span {
+.main_top span {
   display: block;
   margin: 11px 0 17px 0;
   font-size: 50px;
@@ -80,6 +80,7 @@ body {
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
   padding: 10px;
 }
+
 /*WorkMain*/
 
 .Work {
@@ -199,6 +200,17 @@ body {
   width: 300px;
   margin-bottom: 40px;
   font-size: 16px;
+}
+
+/*Upbringing*/
+.main-upbringing h1 {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 50px;
+  line-height: 80px;
+  color: #aba59c;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  padding: 300px 10px 10px 10px;
 }
 
 /*Notfound*/
