@@ -212,6 +212,19 @@ body {
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
   padding: 300px 10px 10px 10px;
 }
+.main-upbringing ul {
+  color: #1e366a;
+  border-top: solid #1e366a 3px; /*上のボーダー*/
+  border-bottom: solid #1e366a 3px; /*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+  margin: 100px;
+}
+
+.main-upbringing li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style: none;
+}
 
 /*Notfound*/
 .notfound {
@@ -369,5 +382,20 @@ body {
     padding-top: 100px;
     font-size: 40px;
     line-height: 80px;
+  }
+
+  /*Upbinging*/
+  .main-upbringing ul {
+    color: #1e366a;
+    border-top: solid #1e366a 3px; /*上のボーダー*/
+    border-bottom: solid #1e366a 3px; /*下のボーダー*/
+    padding: 0.5em 0 0.5em 1.5em;
+    margin: 100px 0 100px 0;
+  }
+
+  .main-upbringing li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style: none;
   }
 }
